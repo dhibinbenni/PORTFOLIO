@@ -1,0 +1,96 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Body Background */
+body{
+    background: linear-gradient(135deg, #000000, #003300, #006600);
+    color: whitesmoke;
+}
+
+/* Navigation */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: rgba(0, 50, 0, 0.85);
+}
+
+.logo{
+    color: #00ff99;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin-left: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ccffcc;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+/* Fixed hover + active selector */
+nav ul li a:hover,
+nav ul li a.active{
+    color: #00ff00;
+}
+
+/* Button */
+.btn{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #00cc66;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.btn:hover{
+    background-color: #00ff99;
+}
+
+/* Skills Tags */
+.skills span{
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: rgba(0, 80, 0, 0.8);
+    font-weight: bold;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+/* Content Section */
+.content{
+    padding: 60px 80px;
+}
+
+/* Hero Section */
+.hero{
+    text-align: center;
+    padding: 120px 20px;
+}
+
+/* Card */
+.card{
+    background-color: rgba(0, 80, 0, 0.85);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
